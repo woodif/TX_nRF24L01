@@ -1,29 +1,3 @@
-/* YourDuinoStarter Example: nRF24L01 Transmit Joystick values
- - WHAT IT DOES: Reads Analog values on A0, A1 and transmits
-   them over a nRF24L01 Radio Link to another transceiver.
- - SEE the comments after "//" on each line below
- - CONNECTIONS: nRF24L01 Modules See:
- http://arduino-info.wikispaces.com/Nrf24L01-2.4GHz-HowTo
-   1 - GND
-   2 - VCC 3.3V !!! NOT 5V
-   3 - CE to Arduino pin 9
-   4 - CSN to Arduino pin 10
-   5 - SCK to Arduino pin 13
-   6 - MOSI to Arduino pin 11
-   7 - MISO to Arduino pin 12
-   8 - UNUSED
-   - 
-   Analog Joystick or two 10K potentiometers:
-   GND to Arduino GND
-   VCC to Arduino +5V
-   X Pot to Arduino A0
-   Y Pot to Arduino A1
-   
- - V1.00 11/26/13
-   Based on examples at http://www.bajdi.com/
-   Questions: terry@yourduino.com */
-
-/*-----( Import needed libraries )-----*/
 #include <SPI.h>
 #include <nRF24L01.h>
 #include <RF24.h>
